@@ -1,15 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Templete 3</title>
+    <title>Bc Dental | <? echo $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="" />
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link href="owl-carousel/owl.carousel.css" rel='stylesheet' type='text/css' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link href="owl-carousel/owl.carousel.css" rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+          type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -27,7 +28,39 @@
                 zoomControl: true,
                 scaleControl: true,
                 streetViewControl: true,
-                styles: [{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#3f6184"}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#f2f2f2"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#3f6184"},{"visibility":"on"}]}]
+                styles: [{
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{"color": "#3f6184"}]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{"color": "#f2f2f2"}]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{"saturation": -100}, {"lightness": 45}]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "simplified"}]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{"visibility": "off"}]
+                }, {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{"color": "#3f6184"}, {"visibility": "on"}]
+                }]
             }
             var map = new google.maps.Map(document.getElementById('map'), mapOptions);
             var contentString =
@@ -42,12 +75,13 @@
                 icon: 'images/marker.png',
                 title: 'Lorem Ipsum'
             });
-            google.maps.event.addListener(marker, 'click', function() {
-                infowindow.open(map,marker);
+            google.maps.event.addListener(marker, 'click', function () {
+                infowindow.open(map, marker);
 
             });
 
         }
+
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 </head>
@@ -72,7 +106,8 @@
                                 </div>
                                 <div class="collapse navbar-collapse">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="#" class="text-light" onclick="$('#inicio').animatescroll({scrollSpeed:1000});">Inicio</a>
+                                        <li><a href="#" class="text-light"
+                                               onclick="$('#inicio').animatescroll({scrollSpeed:1000});">Inicio</a>
                                         </li>
                                         <li><a href="#" class="text-light"
                                                onclick="$('#servicios').animatescroll({scrollSpeed:1000});">Servicios</a>
@@ -80,7 +115,8 @@
                                         <li><a href="#" class="text-light"
                                                onclick="$('#instalaciones').animatescroll({scrollSpeed:1000});">Instalaciones</a>
                                         </li>
-                                        <li><a href="#" class="text-light" onclick="$('#contacto').animatescroll({scrollSpeed:1000});">Contacto</a>
+                                        <li><a href="#" class="text-light"
+                                               onclick="$('#contacto').animatescroll({scrollSpeed:1000});">Contacto</a>
                                         </li>
                                     </ul>
                                 </div>
