@@ -99,11 +99,11 @@ body a {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #1a1a1a;
+    border-color: #4A8092;
 }
 
 .navbar-default .navbar-link {
-    color: #1a1a1a;
+    color: #4A8092;
 }
 
 .navbar-default .navbar-link:hover {
@@ -112,7 +112,7 @@ body a {
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #1a1a1a;
+        color: #4A8092;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
