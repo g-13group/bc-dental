@@ -1,0 +1,88 @@
+<a href="https://api.whatsapp.com/send?phone=6646347750&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20BCDental."
+   class="float" target="_blank">
+    <img src="images/whats.png">
+</a>
+<footer class="footer">
+    <div class="container" id="contacto">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-md-8 footer_grid">
+                    <img src="images/logo-bc.png" width="30%">
+                    <p>
+                    <form style="margin-top: 30px" id="form-contacto">
+                        <div class="col-md-12">
+                            <input class="inputs margin20bottom" name="nombre" type="text" placeholder="Nombre">
+                            <input class="inputs margin20bottom" name="telefono" type="text" placeholder="Teléfono">
+                            <input class="inputs margin20bottom" name="correo" type="text" placeholder="E-Mail">
+                            <textarea name="mensaje" class="inputs_multiline margin20bottom"
+                                      placeholder="Mensaje"></textarea>
+                            <input name="" type="submit" class="button_submit margin20bottom" value="Enviar">
+                        </div>
+                    </form>
+                    </p>
+                </div>
+
+                <div class="col-md-4 footer_grid">
+                    <h4>Contacto</h4>
+                    <div class="direccion">
+                        <p>José Clemente Orozco 1506,</p>
+                        <p>Oficina 203, 2do
+                            pizo CP22010
+                        </p>
+                        <p>Zona Río Tijuana B.C..</p>
+                        <p><span class="m_3">Teléfono</span> :(664) 634-7750<br>Desde USA: (619) 600-5265</p>
+                        <!--                        <p><span class="m_3">Celular</span> : 5555-5555</p>-->
+                        <p><span class="m_3">E-mail </span> : <span><a href="#" class="text-dark">bcdental@gmail.com</a></span>
+                        </p>
+                    </div>
+                    <ul class="socials">
+                        <a href="#"><img src="images/ig.png"></a>
+                        <a href="#"><img src="images/fb.png"></a>
+                        @bcdentaltijuana
+                    </ul>
+                    <br>
+                    <h4>Horarios</h4>
+                    <table>
+                        <tr>
+                            <td width="50%">LUN Y MAR</td>
+                            <td> 10:00 - 17:00 HRS</td>
+                        </tr>
+                        <tr>
+                            <td>MIER Y JUE</td>
+                            <td> 10:00 - 16:00 HRS</td>
+                        </tr>
+                        <tr>
+                            <td>VIE</td>
+                            <td> 12:00 - 16:00 HRS</td>
+                        </tr>
+                        <tr>
+                            <td>SAB</td>
+                            <td> 09:00 - 14:00 HRS</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="footer_top">
+            <iframe id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.155872238462!2d-117.01764398482435!3d32.521983681049726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94846c656ce77%3A0x47e4e13560bee62f!2sBC%20Dental!5e0!3m2!1ses-419!2smx!4v1663603631538!5m2!1ses-419!2smx"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer_bottom">
+            <div class="copy_right">
+                <p>Sitio Diseñado por <a class="text-dark" href="http://portalodontologos.mx/posa-publicidad.php">G13
+                        group ® Cafeína Creativa</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="owl-carousel/owl.carousel.js"></script>
+<script src="js/animatescroll.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script src="js/scripts/contacto.js"></script>
+</body>
+</html>
