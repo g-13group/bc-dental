@@ -54,30 +54,30 @@ require_once "header.php";
     <div class="content_middle">
         <div class="box_1">
             <div class="col-sm-3 col_2">
-                <a href="single.html" class="mask"><img src="images/gal1.png" alt="image"
+                <a href="#" class="mask"><img src="images/gal1.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="col-sm-3 col_4">
-                <a href="single.html" class="mask"><img src="images/gal2.png" alt="image"
+                <a href="#" class="mask"><img src="images/gal2.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="col-sm-6 col_3">
-                <a href="single.html" class="mask"><img src="images/gal3.png" alt="image"
+                <a href="#" class="mask"><img src="images/gal3.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="clearfix"></div>
         </div>
         <div class="box_2">
             <div class="col-sm-6 col_2">
-                <a href="single.html" class="mask"><img src="images/gal4.png" alt="image"
+                <a href="#" class="mask"><img src="images/gal4.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="col-sm-4 col_4">
-                <a href="single.html" class="mask"><img src="images/gal5.png" alt="image"
+                <a href="#" class="mask"><img src="images/gal5.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="col-sm-2 col_3">
-                <a href="single.html" class="mask"><img src="images/DSC_6642.jpg" alt="image"
+                <a href="#" class="mask"><img src="images/DSC_6642.jpg" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="clearfix"></div>
