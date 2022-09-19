@@ -77,7 +77,7 @@ require_once "header.php";
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="col-sm-2 col_3">
-                <a href="#" class="mask"><img src="images/DSC_6642.jpg" alt="image"
+                <a href="#" class="mask"><img src="images/edif.png" alt="image"
                                                         class="img-responsive zoom-img full_width_image"></a>
             </div>
             <div class="clearfix"></div>
