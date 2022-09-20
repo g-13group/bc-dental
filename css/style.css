@@ -536,7 +536,7 @@ span.m_3 {
 .button_submit {
     width: 100%;
     background-color: #00c3da;
-    border-color: #00c3da;
+    /*border-color: #00c3da;*/
     padding: 10px 0;
     color: #fff;
     font-size: 1.1em;
@@ -883,9 +883,10 @@ span.m_3 {
 }
 
 .img-span {
-    width: 30%;
-    margin-top: 10px;
-    margin-left: 28px
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 40px
 }
 
 .title-service {

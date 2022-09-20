@@ -8,18 +8,14 @@
             <div class="row">
                 <div class="col-md-8 footer_grid">
                     <img src="images/logo-bc.png" width="30%">
-                    <p>
                     <form style="margin-top: 30px" id="form-contacto">
-                        <div class="col-md-12">
-                            <input class="inputs margin20bottom" name="nombre" type="text" placeholder="Nombre">
-                            <input class="inputs margin20bottom" name="telefono" type="text" placeholder="Teléfono">
-                            <input class="inputs margin20bottom" name="correo" type="text" placeholder="E-Mail">
-                            <textarea name="mensaje" class="inputs_multiline margin20bottom"
-                                      placeholder="Mensaje"></textarea>
-                            <input name="" type="submit" class="button_submit margin20bottom" value="Enviar">
-                        </div>
+                        <input class="inputs margin20bottom" name="nombre" type="text" placeholder="Nombre">
+                        <input class="inputs margin20bottom" name="telefono" type="text" placeholder="Teléfono">
+                        <input class="inputs margin20bottom" name="correo" type="text" placeholder="E-Mail">
+                        <textarea name="mensaje" class="inputs_multiline margin20bottom"
+                                  placeholder="Mensaje"></textarea>
+                        <input name="" type="submit" class="button_submit margin20bottom" value="Enviar">
                     </form>
-                    </p>
                 </div>
 
                 <div class="col-md-4 footer_grid">

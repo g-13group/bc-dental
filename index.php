@@ -13,8 +13,7 @@ require_once "header.php";
             <div class="col-md-4 space">
                 <div class="span-btn-1">
                     <img src="images/2.png" class="img-span">
-                    <h3 class="title-service"><b>ODONTOLOGÍA <br>
-                            RESTAURADORA</b></h3>
+                    <h3 class="title-service"><b>ODONTOLOGÍA <br>RESTAURADORA</b></h3>
                 </div>
             </div>
             <div class="col-md-4 space">
