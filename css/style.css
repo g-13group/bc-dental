@@ -28,7 +28,7 @@ body a {
 }
 
 .header {
-    background: url(../images/bg-bc-dental.png) no-repeat center top, linear-gradient(to left top, white 15%, #4A8092);
+    background: url(../images/bg-bc-dental.png) no-repeat center top, linear-gradient(to left top, white 15%, #4a8092);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,7 +38,7 @@ body a {
 }
 
 .header-top {
-    background: #4A8092;
+    background: #4a8092;
     margin-top: 4%;
 }
 
@@ -50,8 +50,8 @@ body a {
 }
 
 .navbar-default {
-    background-color: #4A8092;
-    border-color: #4A8092;
+    background-color: #4a8092;
+    border-color: #4a8092;
 }
 
 .navbar-default .navbar-brand {
@@ -76,12 +76,12 @@ body a {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #898989;
-    background-color: #4A8092;
+    background-color: #4a8092;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #898989;
-    background-color: #4A8092;
+    background-color: #4a8092;
 }
 
 .navbar-default .navbar-toggle {
@@ -90,7 +90,7 @@ body a {
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #4A8092;
+    background-color: #4a8092;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -99,11 +99,11 @@ body a {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-    border-color: #4A8092;
+    border-color: #4a8092;
 }
 
 .navbar-default .navbar-link {
-    color: #4A8092;
+    color: #4a8092;
 }
 
 .navbar-default .navbar-link:hover {
@@ -112,7 +112,7 @@ body a {
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: #4A8092;
+        color: #4a8092;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -177,7 +177,7 @@ span.text_slider_2 {
 }
 
 .content_top {
-    background: linear-gradient(to left bottom, white 10%, #4A8092);
+    background: transparent;
     padding: 5em 0;
 }
 
@@ -186,7 +186,7 @@ span.text_slider_2 {
 }
 
 .col_1 i {
-    background: #6dd3d1;
+    background: #5ec2d8;
     text-align: center;
     width: 150px !important;
     height: 80px;
@@ -240,7 +240,7 @@ i.icon3 {
 }
 
 .titulos_secciones {
-    background: #6dd3d1;
+    background: #5ec2d8;
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
@@ -404,7 +404,7 @@ ul.socials li {
     width: 43px;
     display: inline-block;
     color: #fff;
-    background: #6dd3d1;
+    background: #5ec2d8;
     text-align: center;
     line-height: 42px;
     font-size: 17px;
@@ -469,7 +469,7 @@ ul.socials li {
 }
 
 span.m_3 {
-    color: #b8416f;
+    color: #5ec2d8;
 }
 
 .text input[type="text"], .text textarea {
@@ -500,7 +500,7 @@ span.m_3 {
     font-weight: normal;
     padding: 15px 30px;
     text-transform: uppercase;
-    background: #6dd3d1;
+    background: #5ec2d8;
     display: inline-block;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -853,7 +853,7 @@ span.m_3 {
 }
 
 .fondo_blanco_menu {
-    background-color: #4A8092;
+    background-color: #4a8092;
 }
 
 .center_image {
@@ -869,7 +869,7 @@ span.m_3 {
 }
 
 .span-btn-1 {
-    background: #6dd3d1;
+    background: #5ec2d8;
     width: 110px !important;
     height: 60px;
     border-radius: 40px
@@ -893,6 +893,7 @@ span.m_3 {
     font-size: 15px;
     margin-top: -39px;
     margin-left: 130px;
+    color: black;
 }
 
 .space{
@@ -919,4 +920,22 @@ span.m_3 {
 
 .my-float{
     margin-top:16px;
+}
+
+.section-1 {
+    padding: 2rem 20%;
+    background: url(../images/bg-bc-dental.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.section-2 {
+    background: linear-gradient(to left bottom, white 10%, #4A8092);
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    padding: 10rem 20%;
 }

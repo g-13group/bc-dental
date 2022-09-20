@@ -88,7 +88,7 @@
     </script>
 </head>
 <body>
-<div class="header fondo_blanco_menu">|
+<div class="fondo_blanco_menu">
     <div class="container">
         <div class="header-shadow">
             <div class="header-top">
@@ -131,3 +131,6 @@
         </div>
     </div>
 </div>
+<section class="section-1">
+<!--    <img src="images/bg-bc-dental.png" class="img-responsive">-->
+</section>
