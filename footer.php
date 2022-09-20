@@ -23,10 +23,10 @@
                     <div class="direccion">
                         <p>José Clemente Orozco 1506,</p>
                         <p>Oficina 203, 2do
-                            pizo CP22010
+                            piso C.P. 22010
                         </p>
-                        <p>Zona Río Tijuana B.C..</p>
-                        <p><span class="m_3">Teléfono</span> :(664) 634-7750<br>Desde USA: (619) 600-5265</p>
+                        <p>Zona Río Tijuana B.C.</p>
+                        <p><span class="m_3">Teléfono</span> : (664) 634-7750<br>Desde USA: (619) 600-5265</p>
                         <!--                        <p><span class="m_3">Celular</span> : 5555-5555</p>-->
                         <p><span class="m_3">E-mail </span> : <span><a href="#" class="text-dark">bcdental@gmail.com</a></span>
                         </p>
