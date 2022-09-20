@@ -31,14 +31,14 @@ class ContactoController
 
             $mail = new PHPMailer(true);
             $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host = 'mail.portaldeodontologos.mx';                     //Set the SMTP server to send through
+            $mail->Host = 'mail.bc-dental.com ';                     //Set the SMTP server to send through
             $mail->SMTPAuth = true;                                   //Enable SMTP authentication
-            $mail->Username = 'hola@portaldeodontologos.mx';                     //SMTP username
-            $mail->Password = 'V9VM2)^6-OjQ';                               //SMTP password
+            $mail->Username = 'contacto@bc-dental.com';                     //SMTP username
+            $mail->Password = 'cK1FN=_AoUDV';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port = 465;
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
-            $mail->addAddress('oscar.romero@g13group.com', $_REQUEST["nombre"]);
+            $mail->addAddress("contacto@bc-dental.com", $_REQUEST["nombre"]);
             $mail->Subject = utf8_encode("Informacion BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
