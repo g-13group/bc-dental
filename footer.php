@@ -1,4 +1,4 @@
-<a href="https://api.whatsapp.com/send?phone=6646347750&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20BCDental."
+<a href="https://bit.ly/3DDXtpL"
    class="float" target="_blank">
     <img src="images/whats.png">
 </a>
