@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="col-md-4 footer_grid">
-                    <h4>Contacto</h4>
+                    <h5 class="text-dark"><strong>Contacto</strong></h5>
                     <div class="direccion">
                         <p>José Clemente Orozco 1506,</p>
                         <p>Oficina 203, 2do
@@ -37,7 +37,7 @@
                         @bcdentaltijuana
                     </ul>
                     <br>
-                    <h4>Horarios</h4>
+                    <h5 class="text-dark"><strong>Horarios</strong></h5>
                     <table>
                         <tr>
                             <td width="50%">LUN Y MAR</td>
