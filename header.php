@@ -131,6 +131,9 @@
         </div>
     </div>
 </div>
-<section class="section-1">
-<!--    <img src="images/bg-bc-dental.png" class="img-responsive">-->
-</section>
+<div class="container">
+    <img src="images/bg-bc-dental.png" style="width: 100%;
+  max-width: 1600px;
+  height: auto;margin: auto">
+</div>
+

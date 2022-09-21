@@ -336,7 +336,7 @@ img.zoom-img {
 /*--footer--*/
 .footer {
     background: #fff;
-    padding: 5em 0;
+    padding: 2em 0;
 }
 
 .footer_grid h4 {
@@ -923,14 +923,15 @@ span.m_3 {
 }
 
 .section-1 {
-    padding: 2rem 20%;
-    background: url(../images/bg-bc-dental.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    min-height: 400px;
+    /*padding: 2rem 20%;*/
+    /*background: url(../images/bg-bc-dental.png);*/
+    /*!*-webkit-background-size: cover;*!*/
+    /*!*-moz-background-size: cover;*!*/
+    /*!*-o-background-size: cover;*!*/
+    /*!*background-size: cover;*!*/
+    /*background-position: center;*/
+    /*min-height: 400px;*/
+    /*min-width: 80px;*/
 }
 
 .section-2 {
