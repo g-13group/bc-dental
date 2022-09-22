@@ -32,8 +32,8 @@
                         </p>
                     </div>
                     <ul class="socials">
-                        <a href="https://www.facebook.com/bcdentaltijuana"><img src="images/ig.png"></a>
-                        <a href="https://www.instagram.com/bcdentaltijuana/"><img src="images/fb.png"></a>
+                        <a href="https://www.facebook.com/bcdentaltijuana" target="_blank"><img src="images/ig.png"></a>
+                        <a href="https://www.instagram.com/bcdentaltijuana/" target="_blank"><img src="images/fb.png"></a>
                         @bcdentaltijuana
                     </ul>
                     <br>
