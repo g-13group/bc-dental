@@ -28,7 +28,7 @@
                         <p>Zona Río Tijuana B.C.</p>
                         <table>
                             <tr>
-                                <td width="50%"><span class="m_3">Teléfono:</span></td>
+                                <td width="30%"><span class="m_3">Teléfono:</span></td>
                                 <td> (664) 634-7750</td>
                             </tr>
                             <tr>
@@ -36,7 +36,7 @@
                                 <td><span>Desde USA: (664) 634-7750</span></td>
                             </tr>
                             <tr>
-                                <td width="50%"><span class="m_3">E-mail:</span></td>
+                                <td><span class="m_3">E-mail:</span></td>
                                 <td> <span><a href="mailto:bcdental@gmail.com" target="_blank"
                                               class="text-dark">bcdental@gmail.com</a></span></td>
                             </tr>
