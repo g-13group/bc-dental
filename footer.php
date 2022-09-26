@@ -40,7 +40,7 @@
                     <h5 class="text-dark"><strong>Horarios</strong></h5>
                     <table>
                         <tr>
-                            <td width="50%">Lunes y martes</td>
+                            <td width="55%">Lunes y martes</td>
                             <td> 10:00 - 17:00 Hrs</td>
                         </tr>
                         <tr>
