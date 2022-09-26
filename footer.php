@@ -48,7 +48,7 @@
                             <td> 10:00 - 16:00 Hrs</td>
                         </tr>
                         <tr>
-                            <td>Vuernes</td>
+                            <td>Viernes</td>
                             <td> 12:00 - 16:00 Hrs</td>
                         </tr>
                         <tr>
