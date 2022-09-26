@@ -32,7 +32,7 @@
                                 <td> (664) 634-7750</td>
                             </tr>
                             <tr>
-                                <td width="50%">Desde USA:</td>
+                                <td><span>Desde USA:</span></td>
                                 <td> (664) 634-7750</td>
                             </tr>
                             <tr>
