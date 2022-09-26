@@ -26,13 +26,25 @@
                             piso C.P. 22010
                         </p>
                         <p>Zona Río Tijuana B.C.</p>
-                        <p><span class="m_3">Teléfono:</span> (664) 634-7750<br>Desde USA: (619) 600-5265</p>
-                        <!--                        <p><span class="m_3">Celular</span> : 5555-5555</p>-->
-                        <p><span class="m_3">E-mail:</span> <span><a href="mailto:bcdental@gmail.com" target="_blank" class="text-dark">bcdental@gmail.com</a></span>
-                        </p>
+                        <table>
+                            <tr>
+                                <td width="55%"><span class="m_3">Teléfono:</span></td>
+                                <td> (664) 634-7750</td>
+                            </tr>
+                            <tr>
+                                <td width="55%">Desde USA:</td>
+                                <td> (664) 634-7750</td>
+                            </tr>
+                            <tr>
+                                <td width="55%"><span class="m_3">E-mail:</span></td>
+                                <td> <span><a href="mailto:bcdental@gmail.com" target="_blank"
+                                              class="text-dark">bcdental@gmail.com</a></span></td>
+                            </tr>
+                        </table>
                     </div>
                     <ul class="socials">
-                        <a href="https://www.instagram.com/bcdentaltijuana/" target="_blank"><img src="images/ig.png"></a>
+                        <a href="https://www.instagram.com/bcdentaltijuana/" target="_blank"><img
+                                    src="images/ig.png"></a>
                         <a href="https://www.facebook.com/bcdentaltijuana" target="_blank"><img src="images/fb.png"></a>
                         @bcdentaltijuana
                     </ul>
