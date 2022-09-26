@@ -40,19 +40,19 @@
                     <h5 class="text-dark"><strong>Horarios</strong></h5>
                     <table>
                         <tr>
-                            <td width="50%">LUN Y MAR</td>
+                            <td width="50%">Lunes y martes</td>
                             <td> 10:00 - 17:00 HRS</td>
                         </tr>
                         <tr>
-                            <td>MIER Y JUE</td>
+                            <td>Miércoles y jueves</td>
                             <td> 10:00 - 16:00 HRS</td>
                         </tr>
                         <tr>
-                            <td>VIE</td>
+                            <td>Vuernes</td>
                             <td> 12:00 - 16:00 HRS</td>
                         </tr>
                         <tr>
-                            <td>SAB</td>
+                            <td>Sábado</td>
                             <td> 09:00 - 14:00 HRS</td>
                         </tr>
                     </table>
