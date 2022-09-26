@@ -41,19 +41,19 @@
                     <table>
                         <tr>
                             <td width="50%">Lunes y martes</td>
-                            <td> 10:00 - 17:00 HRS</td>
+                            <td> 10:00 - 17:00 Hrs</td>
                         </tr>
                         <tr>
                             <td>Miércoles y jueves</td>
-                            <td> 10:00 - 16:00 HRS</td>
+                            <td> 10:00 - 16:00 Hrs</td>
                         </tr>
                         <tr>
                             <td>Vuernes</td>
-                            <td> 12:00 - 16:00 HRS</td>
+                            <td> 12:00 - 16:00 Hrs</td>
                         </tr>
                         <tr>
                             <td>Sábado</td>
-                            <td> 09:00 - 14:00 HRS</td>
+                            <td> 09:00 - 14:00 Hrs</td>
                         </tr>
                     </table>
                 </div>
