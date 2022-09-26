@@ -32,8 +32,8 @@
                                 <td> (664) 634-7750</td>
                             </tr>
                             <tr>
-                                <td><span>Desde USA:</span></td>
-                                <td> (664) 634-7750</td>
+                                <td></td>
+                                <td><span>Desde USA: (664) 634-7750</span></td>
                             </tr>
                             <tr>
                                 <td width="50%"><span class="m_3">E-mail:</span></td>
