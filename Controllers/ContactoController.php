@@ -38,7 +38,8 @@ class ContactoController
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port = 465;
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
-            $mail->addAddress("contacto@bc-dental.com", $_REQUEST["nombre"]);
+            $mail->addAddress("contacto@bc-dental.com", "BC Dental");
+            $mail->addAddress("bcdental@gmail.com", "BC Dental");
             $mail->Subject = utf8_encode("Informacion BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
