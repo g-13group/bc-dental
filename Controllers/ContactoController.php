@@ -39,7 +39,7 @@ class ContactoController
             $mail->Port = 465;
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
             $mail->addAddress("contacto@bc-dental.com", "BC Dental");
-            $mail->addAddress("tic.oscarrom@gmail.com", "BC Dental");
+            $mail->addCC("tic.oscarrom@gmail.com", "BC Dental");
             $mail->Subject = utf8_encode("Información BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
