@@ -31,7 +31,7 @@ class ContactoController
 
             $mail = new PHPMailer(true);
             $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host = 'mail.bc-dental.com ';                     //Set the SMTP server to send through
+            $mail->Host = 'mail.bc-dental.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth = true;                                   //Enable SMTP authentication
             $mail->Username = 'contacto@bc-dental.com';                     //SMTP username
             $mail->Password = 'cK1FN=_AoUDV';                               //SMTP password
@@ -39,7 +39,7 @@ class ContactoController
             $mail->Port = 465;
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
             $mail->addAddress("contacto@bc-dental.com", "BC Dental");
-            $mail->addAddress("bcdental@gmail.com", "BC Dental");
+            $mail->addAddress("tic.oscarrom@gmail.com", "BC Dental");
             $mail->Subject = utf8_encode("Información BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
