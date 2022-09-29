@@ -23,6 +23,12 @@ class ContactoController
     public function email()
     {
         try {
+            if (!preg_match("/{$_SERVER['HTTP_HOST']}/i", $_SERVER['HTTP_REFERER'])) {
+                // echo $_SERVER['HTTP_REFERER']." :: ".$dominio."<br>";
+                $NO_SPAM=true;
+                // echo "Bad reference<br>";
+                exit();
+            }
             $fecha = date("Y-m-d");
             $hora = date("H:i:s");
             $query = $this->connection->prepare("INSERT INTO g13_leads (nombre, email, tel, mensaje, fecha, hora) values (?,?,?,?,?,?)");
@@ -34,13 +40,13 @@ class ContactoController
             $mail->Host = 'mail.bc-dental.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth = true;                                   //Enable SMTP authentication
             $mail->Username = 'contacto@bc-dental.com';                     //SMTP username
-            $mail->Password = 'cK1FN=_AoUDV';                               //SMTP password
+            $mail->Password = '-2*Zw{rkYJzM';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port = 465;
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
 //            $mail->addAddress("contacto@bc-dental.com", "BC Dental");
-            $mail->addAddress("tic.oscarrom@gmail.com", "BC Dental");
-            $mail->Subject = utf8_encode("InformaciÃ³n BC Dental") . " " . $_REQUEST["nombre"];
+            $mail->addAddress("bcdental@gmail.com", "BC Dental");
+            $mail->Subject = utf8_encode("Informaci¨®n BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
             $mail->send();
