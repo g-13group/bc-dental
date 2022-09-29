@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-
+header('Content-Type: text/html; charset=UTF-8');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
@@ -46,7 +46,7 @@ class ContactoController
             $mail->setFrom($_REQUEST["correo"], $_REQUEST["nombre"]);
 //            $mail->addAddress("contacto@bc-dental.com", "BC Dental");
             $mail->addAddress("bcdental@gmail.com", "BC Dental");
-            $mail->Subject = utf8_encode("Informaci¨®n BC Dental") . " " . $_REQUEST["nombre"];
+            $mail->Subject = utf8_encode("Información BC Dental") . " " . $_REQUEST["nombre"];
             $mail->Body = "Mensaje: " . $_REQUEST["mensaje"];
             $mail->isHTML(true);
             $mail->send();
